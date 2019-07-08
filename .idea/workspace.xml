@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4460bb41-079a-4cfa-9c4f-e7b44e60fc77" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../../LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/actions/client/clientActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/actions/client/clientActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/actions/client/clientManagerActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/actions/client/clientManagerActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/actions/client/formClientActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/actions/client/formClientActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/actions/client/inputClientActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/actions/client/inputClientActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/actions/client/overviewClientActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/actions/client/overviewClientActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/actions/user/authenticationUserActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/actions/user/authenticationUserActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/apis/SascWeb.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/apis/SascWeb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/assets/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/helpers/redux-form-inputs/checkBoxInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/helpers/redux-form-inputs/checkBoxInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/helpers/redux-form-inputs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/helpers/redux-form-inputs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/helpers/redux-form-inputs/selectInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/helpers/redux-form-inputs/selectInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/helpers/redux-form-inputs/sliderInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/helpers/redux-form-inputs/sliderInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/helpers/redux-form-inputs/textInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/helpers/redux-form-inputs/textInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/helpers/reduxFormGenerator/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/helpers/reduxFormGenerator/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/modules/client/ComponentFrameClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/modules/client/ComponentFrameClient.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/modules/client/OverviewClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/modules/client/OverviewClient.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/modules/userOptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/modules/userOptions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/pages/client/Client.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/pages/client/Client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/pages/client/detail/DetailFormClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/pages/client/detail/DetailFormClient.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/pages/client/home/HomeClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/pages/client/home/HomeClient.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/pages/client/overview/OverviewClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/pages/client/overview/OverviewClient.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/pages/dashboard/DashboardOverview.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/pages/dashboard/DashboardOverview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/pages/login/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/pages/login/LoginForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/constants/formValidationRules.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/constants/formValidationRules.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/constants/language/EN.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/constants/language/EN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/constants/menus.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/constants/menus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/constants/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/constants/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/containers/AppContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/containers/AppContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/containers/client/ClientContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/containers/client/ClientContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/containers/client/OverviewClientContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/containers/client/OverviewClientContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/containers/client/form/DetailFormClientContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/containers/client/form/DetailFormClientContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/containers/client/form/OverviewFormClientContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/containers/client/form/OverviewFormClientContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/containers/client/home/HomeClientContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/containers/client/home/HomeClientContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/containers/dashboard/DashboardContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/containers/dashboard/DashboardContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/containers/login/LoginContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/containers/login/LoginContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/history.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/reducers/client/activeClientReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/reducers/client/activeClientReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/reducers/client/form/activeFormClientReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/reducers/client/form/activeFormClientReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/reducers/client/form/listFormClientReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/reducers/client/form/listFormClientReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/reducers/client/input/listInputReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/reducers/client/input/listInputReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/reducers/client/listClientReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/reducers/client/listClientReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/reducers/errors/loginFormErrorsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/reducers/errors/loginFormErrorsReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/reducers/user/authenticationUserReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/reducers/user/authenticationUserReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/configs/Database.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/configs/Database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/constants/types/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/constants/types/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/constants/types/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/constants/types/form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/constants/types/input.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/constants/types/input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/constants/types/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/constants/types/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/controllers/ResourceController.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/controllers/ResourceController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/controllers/client/ClientController.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/controllers/client/ClientController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/controllers/client/ListClientController.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/controllers/client/ListClientController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/controllers/form/FormController.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/controllers/form/FormController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/controllers/form/ListFormController.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/controllers/form/ListFormController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/controllers/input/ListInputController.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/controllers/input/ListInputController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/controllers/user/LoginUserController.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/controllers/user/LoginUserController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/db-copy.pgsql" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/db-copy.pgsql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/models/APIModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/models/APIModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/models/ClientModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/models/ClientModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/models/FormModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/models/FormModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/models/InputModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/models/InputModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/models/Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/models/Model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/models/UserModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/models/UserModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/resources/public/clients/blastx/icons/thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/resources/public/clients/blastx/icons/thumb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/resources/public/clients/fastq_c/icons/thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/resources/public/clients/fastq_c/icons/thumb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/resources/public/clients/fastq_trim/icons/thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/resources/public/clients/fastq_trim/icons/thumb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/resources/public/clients/keygenes/icons/thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/resources/public/clients/keygenes/icons/thumb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/resources/public/clients/sam_bam/icons/thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/resources/public/clients/sam_bam/icons/thumb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/resources/public/clients/snippy/icons/thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/resources/public/clients/snippy/icons/thumb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/static/helpers/DataformatHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/static/helpers/DataformatHelper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/views/ClientView.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/views/ClientView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/views/FormView.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/views/FormView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/views/InputView.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/views/InputView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/views/UserView.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/views/UserView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server/views/View.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../server/views/View.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/client/clientActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/client/clientActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/client/clientManagerActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/client/clientManagerActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/client/formClientActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/client/formClientActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/client/inputClientActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/client/inputClientActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/protocols/directProtocolActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/protocols/directProtocolActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apis/SascWeb.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/apis/SascWeb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/helpers/redux-form-inputs/checkBoxInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/helpers/redux-form-inputs/checkBoxInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/helpers/redux-form-inputs/fileInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/helpers/redux-form-inputs/fileInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/helpers/redux-form-inputs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/helpers/redux-form-inputs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/helpers/redux-form-inputs/selectInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/helpers/redux-form-inputs/selectInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/helpers/redux-form-inputs/sliderInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/helpers/redux-form-inputs/sliderInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/helpers/redux-form-inputs/textInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/helpers/redux-form-inputs/textInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/helpers/reduxFormGenerator/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/helpers/reduxFormGenerator/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Downloads.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Downloads.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Faq.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Faq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/HowToUse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/HowToUse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/Tool.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/Tool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/WhatIs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/WhatIs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/formValidationRules.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/formValidationRules.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/language/EN.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/language/EN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/menus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/menus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/routAnimations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/routAnimations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/AppContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AppContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/history.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/client/activeClientReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/client/activeClientReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/client/form/activeFormClientReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/client/form/activeFormClientReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/client/form/listFormClientReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/client/form/listFormClientReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/client/input/listInputReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/client/input/listInputReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/client/listClientReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/client/listClientReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/client/managerClientReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/client/managerClientReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/protocolStatusReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/protocolStatusReducer.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="67" />
+    <option name="y" value="27" />
+    <option name="width" value="1843" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../client" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4460bb41-079a-4cfa-9c4f-e7b44e60fc77" name="Default Changelist" comment="" />
+      <created>1558969778193</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558969778193</updated>
+      <workItem from="1558969779298" duration="454000" />
+      <workItem from="1559114741070" duration="599000" />
+      <workItem from="1560422070559" duration="611000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1664000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-30" width="1920" height="1110" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
