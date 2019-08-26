@@ -20,21 +20,21 @@ export const getFormList = () => async (dispatch, getState) =>{
 }
 
 const verifyGetForm = (response) =>{
-    if(response.data.success === false){
+    if(response.data.error){
         return {
             type: form.FORM_ITEM_FAILED
         }
     }
     return {
         type: form.FORM_ITEM_SUCCESS,
-        payload: response.data.item
+        payload: response.data.data[0]
     }
 };
 
-export const getForm = (id) => async (dispatch, getState) =>{
-    const response = await SascWebApi.get(`/form/keygenes/${id}`);
+export const getForm = () => async (dispatch, getState) =>{
+    const response = await SascWebApi.get(`/items/form`);
     dispatch(verifyGetForm(response));
-}
+};
 
 const verifyUploadForm = (response) =>{
     if(response.data.success === false){

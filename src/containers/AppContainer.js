@@ -21,6 +21,9 @@ import {excApi} from '../actions/protocols/directProtocolActions'
 import {Form, Grid, Header, Segment, Transition} from "semantic-ui-react";
 import Faq from  "../components/pages/Faq"
 import Contacts from "../components/pages/Contacts";
+import {getPageList} from "../actions/client/pagesClientActions";
+import {getToolStepsList} from "../actions/client/toolStepsClientActions";
+import {getOutputExample} from "../actions/client/outputExampleClientActions";
 
 
 class AppContainer extends Component {
@@ -29,8 +32,9 @@ class AppContainer extends Component {
         pageView: false
     };
     onSubmit = (formValues) => {
+        console.log(formValues);
         this.props.excApi(formValues)
-    }
+    };
 
     componentDidMount() {
         setTimeout(
@@ -39,6 +43,9 @@ class AppContainer extends Component {
             }, 1200);
         this.props.getInputList();
         this.props.getForm(8);
+        this.props.getPageList();
+        this.props.getToolStepsList();
+        this.props.getOutputExample();
     }
 
     wrapTransition =  (object) => {
@@ -60,17 +67,24 @@ class AppContainer extends Component {
     }
 
     renderContent() {
+        if(this.props.pageList.length === 0){
+            return null
+        }
         return (
             <Router history={history}>
                 <Switch>
-                    <Route path="/" exact render={(props) => this.wrapTransition(<WhatIs {...props} path={'/'}/>)}/>
-                    <Route path="/what-is" exact
-                           render={(props) => this.wrapTransition(<WhatIs path={'/what-is'} {...props} />)}/>
+                    <Route path="/" exact render={(props) => this.wrapTransition(
+                        <WhatIs {...props} path={'/'}
+                                content={this.props.pageList}
+                                toolSteps={this.props.toolSteps}
+                                outputExamples={this.props.outputExamples}
+                        />)}/>
                     <Route path="/how-to-use" exact
-                           render={(props) => this.wrapTransition(<HowToUse path={'/how-to-use'} {...props} />)}/>
+                           render={(props) => this.wrapTransition(<HowToUse content={this.props.pageList} path={'/how-to-use'} {...props} />)}/>
                     <Route path="/downloads" exact
                            render={(props) => this.wrapTransition(<Downloads path={'/downloads'} {...props} />)}/>
                     <Route path="/tool" exact render={(props) => this.wrapTransition(<Tool {...props}
+                                                                                           content={this.props.pageList}
                                                                                            path={'/tool'}
                                                                                            inputList={this.props.listInput}
                                                                                            onSubmit={this.onSubmit}
@@ -100,7 +114,10 @@ const mapStateToProps = (state) => {
     return {
         listInput: state.listInput,
         activeFormClient: state.activeFormClient,
-        protocolStatus: state.protocolStatus
+        protocolStatus: state.protocolStatus,
+        pageList: state.listPage,
+        toolSteps: state.listToolSteps,
+        outputExamples: state.listOutputExample
     }
 };
-export default connect(mapStateToProps, {getInputList, getForm, excApi})(AppContainer)
+export default connect(mapStateToProps, {getInputList, getForm, getPageList, excApi, getToolStepsList, getOutputExample})(AppContainer)

@@ -16,18 +16,18 @@ export const removeInput = (index) => {
     }
 }
 const verifyGetInputList = (response) =>{
-    if(response.data.success === false){
+    if(response.data.error){
         return {
             type: input.INPUT_LIST_FAILED
         }
     }
     return {
         type: input.INPUT_LIST_SUCCESS,
-        payload: _.values(response.data.items)
+        payload: _.values(response.data.data)
     }
 };
 
 export const getInputList = (formId) => async (dispatch, getState) =>{
-    const response = await SascWebApi.get(`/input/keygenes/8/list`);
+    const response = await SascWebApi.get(`/items/inputs?fields=*.*`);
     dispatch(verifyGetInputList(response));
 }

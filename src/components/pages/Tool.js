@@ -1,5 +1,6 @@
 
 import React, {Component} from 'react'
+import Parser from 'html-react-parser';
 import {Button, Checkbox, Container, Form, Grid, Header, Icon, Segment, Transition} from "semantic-ui-react";
 import _ from "lodash";
 import {Field, reduxForm} from "redux-form";
@@ -27,12 +28,12 @@ class Tool extends Component{
     }
     renderInputType = (input, key) => {
 
-        switch (input.type) {
+        switch (input.input_type.type) {
             case 'text':
                 return (
                     <Field
                         key={`field-input-${key}`}
-                        name={input.parameter}
+                        name={input.api_reference_parameter}
                         component={textInput}
                         validate={[ required ]}
                         label={input.label}
@@ -46,7 +47,7 @@ class Tool extends Component{
                 return (
                     <Field
                         key={`field-input-${key}`}
-                        name={input.parameter}
+                        name={input.api_reference_parameter}
                         component={fileInput}
                         label={input.label}
                         inputAttr={{
@@ -55,21 +56,37 @@ class Tool extends Component{
                     />
                 )
             case 'select':
+                const options = this.createOptions(key, input.option_titles, input.option_values);
                 return (
                     <Field
                         key={`field-input-${key}`}
-                        name={input.parameter}
+                        name={input.api_reference_parameter}
                         component={selectInput}
                         validate={[ required ]}
                         label={input.label}
                         inputAttr={{
                             placeholder: `Enter the ${input.label.toLowerCase()}`,
-                            options:_.values(input.options)
-                        }}
+                            options: options}
+
+                        }
                     />
                 )
         }
     }
+    createOptions = (index, titles, values) => {
+        const options = [];
+        titles.map(
+            (title, key) =>{
+                options.push({
+                    'key': `optionItem-${index}-${key}`,
+                    'text': titles[key],
+                    'value': values[key]
+                })
+            }
+        );
+        return options
+    };
+
     renderInputs(){
         return this.props.inputList.map(
             (input, key) => this.renderInputType(input, key)
@@ -93,9 +110,10 @@ class Tool extends Component{
                         ):''
                         }
                         <Header as='h1' dividing>
-                            Run tool
+                            {this.props.content['tool'].title}
                         </Header>
-                        <p><b>KeyGenes algorithm</b> in order to run the algorithm  enter the dataset and configure the parameters
+                        <p>
+                            {Parser(this.props.content['tool'].content)}
                         </p>
 
                     </Grid.Column>
