@@ -64,7 +64,7 @@ class AppContainer extends Component {
                     </div>
             </Transition>
         )
-    }
+    };
 
     renderContent() {
         if(this.props.pageList.length === 0){
@@ -73,34 +73,27 @@ class AppContainer extends Component {
         return (
             <Router history={history}>
                 <Switch>
-                    <Route path="/" exact render={(props) => this.wrapTransition(
-                        <WhatIs {...props} path={'/'}
-                                content={this.props.pageList}
-                                toolSteps={this.props.toolSteps}
-                                outputExamples={this.props.outputExamples}
-                        />)}/>
-                    <Route path="/how-to-use" exact
-                           render={(props) => this.wrapTransition(<HowToUse content={this.props.pageList} path={'/how-to-use'} {...props} />)}/>
-                    <Route path="/downloads" exact
-                           render={(props) => this.wrapTransition(<Downloads path={'/downloads'} {...props} />)}/>
-                    <Route path="/tool" exact render={(props) => this.wrapTransition(<Tool {...props}
-                                                                                           content={this.props.pageList}
-                                                                                           path={'/tool'}
-                                                                                           inputList={this.props.listInput}
-                                                                                           onSubmit={this.onSubmit}
-                                                                                           protocolStatus={this.props.protocolStatus}/>)}/>
-                    <Route path="/faq" exact
-                           render={(props) => this.wrapTransition(<Faq path={'/faq'} {...props} />)}/>
-                    <Route path="/contacts" exact
-                           render={(props) => this.wrapTransition(<Contacts path={'/contacts'} {...props} />)}/>
+                    <Route
+                        path="/"
+                        exact
+                        render={(props) => this.wrapTransition(
+                            <WhatIs {...props} path={'/'}
+                                    content={this.props.pageList}
+                                    toolSteps={this.props.toolSteps}
+                                    outputExamples={this.props.outputExamples}
+                            />)
+                        }
+                    />
                 </Switch>
             </Router>
         );
     }
 
     render() {
+        console.log(this.props.content);
         return (<App
             setPageChange={this.setPageChange}
+            content={this.props.pageList}
             pageContent={this.renderContent()}
             inputList={this.props.listInput}
             sloganText={this.state.sloganText}

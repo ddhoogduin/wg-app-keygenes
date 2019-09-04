@@ -7,6 +7,7 @@ import Parser from "html-react-parser";
 
 class HowToUse extends Component{
 
+
     render() {
         return(
             <Grid>

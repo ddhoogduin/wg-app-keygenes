@@ -1,6 +1,6 @@
 import axios from 'axios'
 
 export default axios.create({
-   'baseURL': 'http://localhost/directus/public/keygenes/'
+   'baseURL': 'http://localhost/webapp-gen-system/directus/public/keygenes/'
 });
 
